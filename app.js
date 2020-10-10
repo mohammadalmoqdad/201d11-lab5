@@ -72,7 +72,6 @@ testSumAndMultiply();
 // Here is the test for sumAndMultiply(); uncomment it to run it
 // 4,7,5
 // testSumAndMultiply();
-
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
 /////////////////////////////////////
