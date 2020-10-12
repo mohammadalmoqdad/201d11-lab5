@@ -103,9 +103,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+    var mult=multiply(multiply(multArr[0],multArr[1])[0], multArr[2])[0];
+return [mult,`The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${mult}.`];
 }
-
+testMultiplyArray();
 // Here is the test for multiplyArray(); uncomment it to run it
 // testArray
 // testMultiplyArray();
